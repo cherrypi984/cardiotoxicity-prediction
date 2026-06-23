@@ -4,5 +4,10 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 *.zip
-Data/
+convert.py
 make_notebook.py
+data/clinicalVariants/
+data/variantAnnotations/
+data/results_classifier.png
+data/shap_summary.png
+data/synthetic_patients.csv

@@ -1,0 +1,15 @@
+rsID,Gene,Phenotype,Evidence_Level,Drug,Source,Effect
+rs2229774,RARG,Cardiotoxicity,GWAS_hit,Anthracycline,Aminkeng_2015_NatGenet,risk_allele_C_increases_cardiotoxicity
+rs7853758,SLC28A3,Cardiotoxicity,2B,Anthracycline,Blanco_2012_NatGenet,protective_allele_G
+rs17863783,UGT1A6,Cardiotoxicity,GWAS_hit,Anthracycline,Blanco_2012_NatGenet,risk_allele_increases_cardiotoxicity
+rs1137233,RAC2,Cardiotoxicity,candidate,Doxorubicin,Wojnowski_2005,associated_with_cardiomyopathy
+rs9024,CBR1,Cardiotoxicity,3,Anthracycline,PharmGKB+Blanco_2008,affects_doxorubicin_metabolism
+rs2232228,HAS3,Cardiomyopathy,3,Anthracycline,Blanco_2012,risk_variant
+rs17222723,ABCC2,Cardiotoxicity,3,Doxorubicin,PharmGKB,efflux_transporter_variant
+rs45511401,ABCC1,Cardiotoxicity,3,Doxorubicin,PharmGKB,efflux_transporter_variant
+rs1695,GSTP1,Cardiotoxicity,3,Doxorubicin,Sweeney_2000,oxidative_stress_pathway
+rs20572,CBR1,Metabolism/PK,PK_indirect,doxorubicin,PharmGKB_variantAnnotations,Allele T is associated with increased concentrations of doxorubicin in women wit
+rs1533682,ABCC5,Metabolism/PK,PK_indirect,doxorubicin,PharmGKB_variantAnnotations,Genotype TT is associated with increased clearance of doxorubicin in women with 
+rs1128503,ABCB1,Metabolism/PK,PK_indirect,doxorubicin,PharmGKB_variantAnnotations,Genotype AA is associated with decreased metabolism of doxorubicin in people wit
+rs2032582,ABCB1,Metabolism/PK,PK_indirect,doxorubicin,PharmGKB_variantAnnotations,Genotype AA is associated with decreased metabolism of doxorubicin in people wit
+rs1045642,ABCB1,Metabolism/PK,PK_indirect,doxorubicin,PharmGKB_variantAnnotations,Genotype AA is associated with decreased metabolism of doxorubicin in people wit
