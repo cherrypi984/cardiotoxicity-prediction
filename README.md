@@ -83,3 +83,15 @@ for future investigation.
 - Extend to other cardiotoxic drugs (epirubicin, cyclophosphamide)
 
 ## Repo Structure
+```
+data/
+  cardiotoxicity_master_variants.csv
+  synthetic_patients_v2.csv
+notebooks/
+  02_classifier.ipynb
+src/
+  classifier.py
+results/
+  results_classifier_v2.png
+  shap_summary_v2.png
+```
