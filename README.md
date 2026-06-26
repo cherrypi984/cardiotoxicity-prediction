@@ -48,9 +48,9 @@ pre-treatment genotype panel?
 
 - **5-fold CV ROC-AUC: 0.66 ± 0.05** (Random Forest, class-balanced)
 - **Top genetic features: RARG > UGT1A6 > GSTP1** - the model recovers known 
-  GWAS hits as the most predictive variants, confirming biological plausibility
+  GWAS hits are the most predictive variants, confirming biological plausibility
 - SHAP analysis confirms direction of effect: RARG risk allele pushes prediction 
-  toward cardiotoxicity (consistent with Aminkeng 2015); SLC28A3 protective 
+  toward cardiotoxicity (consistent with Aminkeng 2015); SLC28A3 protective An 
   allele reduces risk (consistent with Blanco 2012)
 
 ![Feature Importance](results/results_classifier_v2.png)
@@ -65,9 +65,7 @@ access to real patient data.
 ## Connection to Project 1
 Patients with high ABCB1 expression (top resistance gene in Project 1) efflux 
 doxorubicin faster → less drug accumulates in cardiac tissue → potentially lower 
-cardiotoxicity risk, but also lower tumour kill efficacy. This ABCB1 
-resistance-toxicity tradeoff is an open clinical question this project sets up 
-for future investigation.
+cardiotoxicity risk, but also lower tumour kill efficacy. That tradeoff - more efflux means less cardiac damage but also less tumour kill - is something I want to look at properly once I have real patient data.
 
 ## Limitations
 - Synthetic cohort - outcomes generated from published ORs, not real patient data
