@@ -1,6 +1,6 @@
 # Predicting Doxorubicin-Induced Cardiotoxicity from Germline Variants
 
-Doxorubicin causes irreversible cardiomyopathy in ~10–15% of patients, yet 
+Doxorubicin causes irreversible cardiomyopathy in roughly 10–15% of patients, yet 
 treatment decisions rarely account for genetic predisposition. This project 
 asks: can germline variants flag high-risk patients *before* chemotherapy begins?
 
@@ -8,8 +8,8 @@ asks: can germline variants flag high-risk patients *before* chemotherapy begins
 Anthracycline-induced cardiotoxicity is a leading cause of treatment-related 
 morbidity in cancer survivors. Current clinical decisions rely on cumulative dose 
 thresholds alone, ignoring the well-documented genetic variation in how patients 
-metabolize and respond to doxorubicin. A pre-treatment genetic risk score could 
-help oncologists personalize dosing or trigger early cardiac monitoring.
+metabolise and respond to doxorubicin. A pre-treatment genetic risk score could 
+help oncologists personalise dosing or trigger early cardiac monitoring.
 
 ## Biological Question
 Which patients receiving anthracycline chemotherapy are genetically predisposed 
@@ -75,6 +75,7 @@ for future investigation.
   frequencies
 - Model trained without epistasis terms - gene-gene interactions not captured
 - dbGaP access request submitted (phs000673) for real validation cohort
+- 0.66 AUC on synthetic data is a proof-of-concept, not a clinical claim
 
 ## Planned Extensions
 - Validate on real dbGaP phs000673 cohort when access approved
